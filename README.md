@@ -152,5 +152,3 @@ https://youtu.be/QxfEhAVdSSw
 2. Increasing the number of cross validation can help in achieving better accuracy.
 
 3. A better performing model can be detected by the AutoML feature if the duration of the exit criterion is increased.
-
-3. 
