@@ -141,10 +141,6 @@ Pipelines are very useful and are a foundation of automation and operations in g
 <img src="https://user-images.githubusercontent.com/68206315/104124973-35ce4180-5354-11eb-9358-a1c39d2778f6.png">
 </p>
 
-## Screen Recording
-
-https://youtu.be/QxfEhAVdSSw
-
 ## Future work
 
 1. Solving the dataset imbalance will improve the accuracy of the model.
