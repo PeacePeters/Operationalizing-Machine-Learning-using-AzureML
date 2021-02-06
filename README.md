@@ -17,7 +17,7 @@ Here are the major steps in this project:
 4. Enable logging
 5. Swagger Documentation
 6. Consume model endpoints
-7. [Create and publish a pipeline](#Operationalizing Mahine Learning using Azure)
+7. Create and publish a pipeline
 
 ## Autentication
 
