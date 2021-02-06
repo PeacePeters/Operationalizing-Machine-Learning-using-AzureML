@@ -18,7 +18,7 @@ Here are the major steps in this project:
 5. Swagger Documentation
 6. Consume model endpoints
 7. Create and publish a pipeline
-[serve.py](../blob/main/serve.py)
+
 ## Autentication
 
 Authentication is crucial for the continuous flow of operations particularly in Continuous Integration and Delivery system (CI/CD), which rely on uninterrupted flows. When authentication is not set properly, it requires human interaction and thus, the flow is interrupted. So, it's always a good practice to use autentication with automation. In Azure ML workspaces, there are a few different ways to autenticate. These include Token-based, Key-based, and Interactive Autentication.
