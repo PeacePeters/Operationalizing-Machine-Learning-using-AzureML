@@ -16,7 +16,7 @@ Here are the major steps in this project:
 3. Deploy the best model
 4. Enable logging
 5. Swagger Documentation
-6. Consume model endpoints
+6. [Consume model endpoints](#Consumemodelendpoints)
 7. Create and publish a pipeline
 
 ## Autentication
@@ -38,7 +38,7 @@ Logging is the core pillar of DevOps/MLOps. It is important because it is at the
 
 Swagger is a tool that helps build, document, and consume RESTful web services (HTTP APIs). It is offered by Azure as a swagger.json file that is used to create a web site that documents the HTTP endpoint for a deployed model. It also explains what types of HTTP requests that an API can consume, like POST and GET. Swagger documentation provides us with the information to interact with the deployed service. By using this documentation, you can verify the inputs and outputs of an API, share knowledge, and achieve more efficiency.
 
-## Consume model endpoints
+# Consume model endpoints
 
 A deployed service can be consumed through an HTTP API. An HTTP API is a URL that is exposed over the network so that interaction with a trained model can happen via HTTP requests. For most common workflows, users can initiate an input request, usually via an HTTP POST request. HTTP POST is a request method that is used to submit data. The HTTP GET is another commonly used request method. HTTP GET is used to retrieve information from a URL. The APIs exposed by Azure ML will use JSON (JavaScript Object Notation) to accept data and submit responses. It served as a bridge language among different environments. The allowed requests methods and the different URLs exposed by Azure create a bi-directional flow of information and the APIs use JSON to accept data and submit responses.
 
