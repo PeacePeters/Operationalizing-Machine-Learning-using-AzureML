@@ -9,6 +9,8 @@ This is the project workflow diagram that starts with autenticating with Azure M
 <img src="https://user-images.githubusercontent.com/68206315/104122429-3a3f2e00-5345-11eb-9075-f059ef41021d.png">
 </p>
 
+![Architecture](./images/scikit-learn-pipeline.jpg)
+
 Here are the major steps in this project:
 
 1. Authentication
