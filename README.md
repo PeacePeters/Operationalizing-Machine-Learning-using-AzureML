@@ -143,8 +143,8 @@ Pipelines are very useful and are a foundation of automation and operations in g
 
 ## Future work
 
-1. Solving the dataset imbalance will improve the accuracy of the model.
+1. Increasing the number of cross validation can help in achieving better accuracy.
 
-2. Increasing the number of cross validation can help in achieving better accuracy.
+2.  A better performing model can be detected by the AutoML feature if the duration of the exit criterion is increased. 
 
-3. A better performing model can be detected by the AutoML feature if the duration of the exit criterion is increased.
+3. Converting the model into platform supported formats such as ONNX, TFLITE etc. will help optimize inference or model scoring and achieve scalability.
