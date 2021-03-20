@@ -11,13 +11,13 @@ This is the project workflow diagram that starts with autenticating with Azure M
 
 Here are the major steps in this project:
 
-1. [Authentication](#authentication)
+1. Authentication
 2. Automated ML Experiment
 3. Deploy the best model
 4. [Enable logging](#enable-logging)
 5. Swagger Documentation
 6. Consume model endpoints
-7. Create and publish a pipeline
+7. [Create and publish a pipeline](#create-and-publish-a-pipeline)
 
 ## Autentication
 
