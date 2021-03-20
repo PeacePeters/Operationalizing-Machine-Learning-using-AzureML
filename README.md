@@ -11,7 +11,7 @@ This is the project workflow diagram that starts with autenticating with Azure M
 
 Here are the major steps in this project:
 
-1. Authentication
+1. [Authentication](#authentication)
 2. Automated ML Experiment
 3. Deploy the best model
 4. Enable logging
