@@ -67,7 +67,7 @@ Pipelines are very useful and are a foundation of automation and operations in g
 <img src="https://user-images.githubusercontent.com/68206315/104123895-ef75e400-534d-11eb-836f-7a70154ec3f2.png">
 </p>
 
-4. Enable Applications Insights using Python SDK by running the [logs.py script](logs.py.md
+4. Enable Applications Insights using Python SDK by running the [logs.py script](logs.py.md)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/68206315/104123991-79be4800-534e-11eb-97de-8ab4f805b00b.png">
