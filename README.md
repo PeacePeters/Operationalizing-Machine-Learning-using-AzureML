@@ -14,7 +14,7 @@ Here are the major steps in this project:
 1. Authentication
 2. Automated ML Experiment
 3. Deploy the best model
-4. [Enable logging](#enable-logging)
+4. Enable logging
 5. Swagger Documentation
 6. Consume model endpoints
 7. [Create and publish a pipeline](#create-and-publish-a-pipeline)
@@ -67,7 +67,7 @@ Pipelines are very useful and are a foundation of automation and operations in g
 <img src="https://user-images.githubusercontent.com/68206315/104123895-ef75e400-534d-11eb-836f-7a70154ec3f2.png">
 </p>
 
-4. Enable Applications Insights using Python SDK by running the [logs.py script](logs.py.md)
+4. Enable Applications Insights using Python SDK by running the [logs.py script](https://github.com/PeacePeters/Operationalizing-Machine-Learning-using-Azure/blob/main/logs.py)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/68206315/104123991-79be4800-534e-11eb-97de-8ab4f805b00b.png">
@@ -145,6 +145,6 @@ Pipelines are very useful and are a foundation of automation and operations in g
 
 1. Increasing the number of cross validation can help in achieving better accuracy.
 
-2.  A better performing model can be detected by the AutoML feature if the duration of the exit criterion is increased. 
+2. A better performing model can be detected by the AutoML feature if the duration of the exit criterion is increased. 
 
 3. Converting the model into platform supported formats such as ONNX, TFLITE etc. will help optimize inference or model scoring and achieve scalability.
