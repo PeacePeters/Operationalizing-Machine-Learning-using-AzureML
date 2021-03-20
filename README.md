@@ -1,6 +1,6 @@
 # Operationalizing Mahine Learning using Azure
 
-In this project, we worked with the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) which is related to direct marketing campaigns of a Portuguese banking sector. Here the project's goal is to use both Azure ML Studio and the Python SDK using this [notebook](https://github.com/PeacePeters/Operationalizing-Machine-Learning-using-Azure/blob/main/aml-pipelines-with-automated-machine-learning-step.ipynb) to configure a cloud-based machine learning production model, deploy it, and consume it using HTTP API. It also innvolves creating, publishing, and interacting with a pipeline.
+In this project, we worked with the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) which is related to direct marketing campaigns of a Portuguese banking sector. Here the project's goal is to use both Azure ML Studio and the Python SDK to configure a cloud-based machine learning production model, deploy the model, and consume it using HTTP API. It also innvolves creating, publishing, and interacting with a pipeline.
 
 ## Architectural Diagram
 
@@ -79,7 +79,7 @@ Pipelines are very useful and are a foundation of automation and operations in g
 <img src="https://user-images.githubusercontent.com/68206315/104124004-8e9adb80-534e-11eb-9816-fbc0be616aa2.png">
 </p>
 
-6. Run [swagger.sh](https://github.com/PeacePeters/Operationalizing-Machine-Learning-using-Azure/blob/main/swagger/swagger.sh) and serve.py scripts to get docker running locally and serving swagger in order to interact with the deployed model Documentation. Here is the Swager UI showing the HTTP API methods and responses for the model
+6. Run swagger.sh and serve.py scripts to get docker running locally and serving swagger in order to interact with the deployed model Documentation. Here is the Swager UI showing the HTTP API methods and responses for the model
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/68206315/104124169-927b2d80-534f-11eb-83ca-e5f6155b0728.png">
@@ -89,7 +89,7 @@ Pipelines are very useful and are a foundation of automation and operations in g
 <img src="https://user-images.githubusercontent.com/68206315/104124083-fbae7100-534e-11eb-9d1d-53e409368f52.png">
 </p>
 
-7. Consume the model by running endpoint.py script which has been updated with the endpoint URL and Primary key authentication type. This produces a JSON output from the model
+7. Consume the model by running [endpoint.py](https://github.com/PeacePeters/Operationalizing-Machine-Learning-using-Azure/blob/main/endpoint.py) script which has been updated with the endpoint URL and Primary key authentication type. This produces a JSON output from the model
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/68206315/104124251-146b5680-5350-11eb-9b40-0876f1bebc88.png">
@@ -101,7 +101,7 @@ Pipelines are very useful and are a foundation of automation and operations in g
 <img src="https://user-images.githubusercontent.com/68206315/104127123-a1b6a700-5360-11eb-9309-ab10ee3382ce.png">
 </p>
 
-9. Run the Jupyter Notebook to create the pipeline and ensure the process is completed
+9. Run the [Jupyter Notebook](https://github.com/PeacePeters/Operationalizing-Machine-Learning-using-Azure/blob/main/aml-pipelines-with-automated-machine-learning-step.ipynb) to create the pipeline and ensure the process is completed
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/68206315/104124702-817feb80-5352-11eb-8ef8-07c2661c06ad.png">
