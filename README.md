@@ -79,7 +79,7 @@ Pipelines are very useful and are a foundation of automation and operations in g
 <img src="https://user-images.githubusercontent.com/68206315/104124004-8e9adb80-534e-11eb-9816-fbc0be616aa2.png">
 </p>
 
-6. Run [swagger.sh](.../https://github.com/PeacePeters/Operationalizing-Machine-Learning-using-Azure/blob/main/swagger/swagger.sh) and serve.py scripts to get docker running locally and serving swagger in order to interact with the deployed model Documentation. Here is the Swager UI showing the HTTP API methods and responses for the model
+6. Run [swagger.sh](.../directory/https://github.com/PeacePeters/Operationalizing-Machine-Learning-using-Azure/blob/main/swagger/swagger.sh) and serve.py scripts to get docker running locally and serving swagger in order to interact with the deployed model Documentation. Here is the Swager UI showing the HTTP API methods and responses for the model
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/68206315/104124169-927b2d80-534f-11eb-83ca-e5f6155b0728.png">
