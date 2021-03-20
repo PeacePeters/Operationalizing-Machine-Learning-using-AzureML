@@ -14,7 +14,7 @@ Here are the major steps in this project:
 1. [Authentication](#authentication)
 2. Automated ML Experiment
 3. Deploy the best model
-4. Enable logging
+4. [Enable logging](#enable-logging)
 5. Swagger Documentation
 6. Consume model endpoints
 7. Create and publish a pipeline
