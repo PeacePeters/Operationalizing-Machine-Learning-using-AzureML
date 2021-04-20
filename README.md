@@ -31,10 +31,9 @@ Here are the major steps in this project:
 4. Enable logging
 5. Swagger Documentation
 6. Consume model endpoints
-7. [Create and publish a pipeline](#create-and-publish-a-pipeline)
-8. [Consume model endpoints](#Consume-model-endpoints)
-9. [Create and publish a pipeline](#Create-and-publish-a-pipeline)
-10. 
+7. Create and publish a pipeline
+8. Consume model endpoints
+9. Create and publish a pipeline
 
 ## Autentication
 
