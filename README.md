@@ -1,6 +1,20 @@
 # Operationalizing Mahine Learning using Azure
 
-In this project, we worked with the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) which is related to direct marketing campaigns of a Portuguese banking sector. Here the project's goal is to use both Azure ML Studio and the Python SDK to configure a cloud-based machine learning production model, deploy the model, and consume it using HTTP API. It also innvolves creating, publishing, and interacting with a pipeline.
+## Overview
+
+In this project, we worked with the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) which is related to direct marketing campaigns of a Portuguese banking sector. Here the project's goal is to use both Azure ML Studio and the Python SDK to configure a cloud-based machine learning production model, deploy the model, and consume it using HTTP API. It also involves creating, publishing, and interacting with a pipeline.
+
+## Table of Contents
+
+1. [Overview](#Overview)
+2. [Architectural Diagram](#Architectural-Diagram)
+3. [Autentication](#Autentication)
+4. [Automated ML Experiment](#Automated-ML-Experiment)
+5. [Deploy the best model](#Deploy-the-best-model)
+6. [Enable logging](#Enable-logging)
+7. [Swagger Documentation](#Swagger-Documentation)
+8. [Key steps](#Key-steps)
+9. [Future work](#Future-work)
 
 ## Architectural Diagram
 
@@ -18,6 +32,9 @@ Here are the major steps in this project:
 5. Swagger Documentation
 6. Consume model endpoints
 7. [Create and publish a pipeline](#create-and-publish-a-pipeline)
+8. [Consume model endpoints](#Consume-model-endpoints)
+9. [Create and publish a pipeline](#Create-and-publish-a-pipeline)
+10. 
 
 ## Autentication
 
