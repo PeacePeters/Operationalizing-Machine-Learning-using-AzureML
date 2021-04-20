@@ -1,9 +1,5 @@
 # Operationalizing Mahine Learning using Azure
 
-## Overview
-
-In this project, we worked with the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) which is related to direct marketing campaigns of a Portuguese banking sector. Here the project's goal is to use both Azure ML Studio and the Python SDK to configure a cloud-based machine learning production model, deploy the model, and consume it using HTTP API. It also involves creating, publishing, and interacting with a pipeline.
-
 ## Table of Contents
 
 1. [Overview](#Overview)
@@ -15,6 +11,10 @@ In this project, we worked with the [Bank Marketing dataset](https://automlsampl
 7. [Swagger Documentation](#Swagger-Documentation)
 8. [Key steps](#Key-steps)
 9. [Future work](#Future-work)
+
+## Overview
+
+In this project, we worked with the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) which is related to direct marketing campaigns of a Portuguese banking sector. Here the project's goal is to use both Azure ML Studio and the Python SDK to configure a cloud-based machine learning production model, deploy the model, and consume it using HTTP API. It also involves creating, publishing, and interacting with a pipeline.
 
 ## Architectural Diagram
 
